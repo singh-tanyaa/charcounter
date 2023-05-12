@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;1,600&family=Lobster&display=swap');
+/*font-family: 'IBM Plex Mono', monospace;
+font-family: 'Lobster', cursive;*/
+body{
+    margin:0;
+    display:flex;
+    justify-content: center;
+    height:100vh;
+    align-items: center;
+   /*background-color: rgb(203, 164, 105);*/
+   /* background-image: url("./emoji.avif");*/
+   background-image: url("./think.png");
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lobster', cursive;
+}
+.container{
+    background-color: bisque;
+    width: 400px;
+    padding: 20px;
+    margin:5px;
+    border-radius: 18px;
+    box-shadow:0 4px 8px  rgba(0,0,0,0.5);
+}
+.textarea{
+    resize: none;
+    width:100%;
+    height:100%;
+    font-size:19px;
+    font-family:'IBM Plex Mono','cursive';
+    padding:10px;
+    box-sizing:border-box;
+    border: solid 2px rgb(128, 171, 10);
+}
+.counter-container{
+    display:flex;
+    justify-content: space-between;
+    padding: 0 2px;
+}
+.counter-container p{
+    font-size:18px
+}
+.total-counter{
+    color:rgb(33, 182, 23);
+    
+}
+.remaining-counter{
+    color: rgb(246, 39, 39);
+}
